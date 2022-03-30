@@ -1,0 +1,172 @@
+.container {
+  padding: 0 2rem;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: white;
+}
+
+.form {
+  width: 500px;
+  margin: auto;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 20px 40px;
+  margin-bottom: 55px;
+}
+
+.form .label .texth3 {
+  margin-bottom: 5px;
+}
+
+.form .label {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form .label .input {
+  width: 100%;
+  padding: 10px 15px;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  transition: 0.5s;
+}
+
+.form .label .input:focus,
+.form .label .textarea:focus {
+  background: aliceblue;
+}
+
+.form .label .textarea {
+  width: 100%;
+  padding: 10px 20px;
+  height: auto;
+  resize: none;
+  overflow-y: auto;
+  outline: none;
+  border: 2px solid gray;
+}
+
+.form .button {
+  padding: 10px 25px;
+  outline: none;
+  display: block;
+  background: dodgerblue;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+
+}
+
+.data {
+  width: 950px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+
+.data .texth4 {
+  width: 100%;
+  font-size: 1.8em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.data .cards {
+  width: 100%;
+  height: auto;
+  display: flex; 
+  justify-content: flex-start; 
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px 15px;
+}
+
+.data .cards .card {
+  width: 300px;
+  height: 400px;
+  padding: 25px 25px;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+  position: relative;
+  border-radius: 4px;
+}
+
+.data .cards .card::before {
+  content: '01';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700;
+  font-size: 15em;
+  color: dodgerblue;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.data .cards .card .label {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-bottom: 25px;
+  z-index: 3;
+}
+
+.data .cards .card .label .texth5 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.data .cards .card .ud {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  gap: 10px;
+}
+
+.data .cards .card .ud .udbutton {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: dodgerblue;
+  transition: 0.5s;
+  font-weight: 600;
+}
+
+.data .cards .card .ud .udbutton:hover {
+  color: blue;
+}
+
+@media (max-width: 670px) {
+  .data {
+    width: auto;
+  }
+
+  .data .cards {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+
+  }
+}
