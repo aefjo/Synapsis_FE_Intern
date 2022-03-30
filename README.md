@@ -4,8 +4,10 @@ PT. Synapsis Sinergi Digital
 #CRUD Application using javascript framework (NEXT.js / NUXT.js).
 #Arfan Fadillah
 
-sebelum memulai pastikan download file di https://aefjo.github.io/Synapsis_FE_Intern/ .
-masuk ke editor favorit anda lalu jalankan file CRUD Application tersebut pada terminal/gitbash anda 
+sebelum memulai pastikan download file di link 
+https://aefjo.github.io/Synapsis_FE_Intern/ 
+masuk ke editor favorit anda lalu jalankan file CRUD Application tersebut pada terminal/gitbash anda. 
+
 dengan menulis : 
   cd nextjsapp
   yarn dev
